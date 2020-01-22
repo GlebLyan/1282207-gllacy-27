@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Глеб Торшин](https://up.htmlacademy.ru/htmlcss/27/user/1282207).
-* Наставник: `Неизвестно`.
+* Наставник: [Артур Трифонов](https://htmlacademy.ru/profile/wrgraff).
 
 ---
 
