@@ -9,6 +9,7 @@
     <body>
         <header>
             <nav>
+                <form action="https://echo.htmlacademy.ru" method="post">
                 <a href="index.html"><img src="img/gllacy.svg" width="154" height="64" alt="Логотип «Gllacy»"></a>
                 <ul>
                     <li><a href="catalog.html">Каталог</a></li>
@@ -16,13 +17,32 @@
                     <li><a href="about-us.html">О компании</a></li>
                 </ul>
                 <ul>
+                </li>
                     <li><a href="search.html"> Поиск</a></li>
-                    <li><a href="enter.html">Вход</a></li>
+                    <p>
+                        <label for="search">Что ищем</label> 
+                        <input id="search" type="text" name="search" placeholder="Что ищем?">
+                    </p>
+                    <li><a href="enter.html">Вход</a>
+                    <ul>
+                        <li><label for="user-login">Логин</label> 
+                            <input id="user-login" type="email" name="login" placeholder="email@example.com">
+                        </li>
+                        <li><label for="user-pass">Пароль</label>
+                            <input id="user-pass" type="password" name="password" placeholder="••••••••">
+                        </li>
+                        <li><button type="submit">Вход</button>
+                        <li><a href="#">Забыли пароль?</a></li>    
+                        <li><a href="#">Новая регистрация</a>
+                        </li>
+                    </ul>
+                    </li>
                     <li><button type="button">Корзина</button></li>
                 </ul>
             </nav>
         </header>
         <main>
+            <h1>Магазин Глэйси - это онлайн- и офлайн-магазин по прадаже мороженного собственного производства на развес</h1>
                     <!-- Тут то что выделено красным -->
                 <section>
                     <h2>О нашем мороженом</h2>
@@ -62,8 +82,6 @@
                     <button type="button">Отправить</button>
                 </section>
                 <section>
-                    <h2>Карта</h2>
-                    <section>
                         <h2>Адрес</h2>
                         <ul>
                             <li>Адрес главного офиса<br>и офлайн-магазина:</li>
@@ -72,7 +90,23 @@
                             <li>8 812 450-25-25<br>(с 10 до 20 ежедневно)</li>
                             <li><a href="feedback.html">Форма обратной связи</a> </li>
                         </ul>
-                    </section>
+                </section>
+                <section>
+                    <h2>Мы обязательно ответим</h2>
+                    <form action="https://echo.htmlacademy.ru" method="post"></form>
+                    <p>
+                        <label for="user-name">Логин</label> 
+                        <input id="user-name" type="text" name="user-name" placeholder="Имя Фамилия">
+                    </p>
+                    <p>
+                        <label for="user-mail">Пароль</label>
+                        <input id="user-mail" type="email" name="email" placeholder="email@example.com">
+                    </p>
+                    <p>
+                        <label for="coments">Пароль</label>
+                        <input id="coments" type="text" name="coments" placeholder="В свободной форме">
+                    </p>
+                    <button type="submit">Отправить</button>
                 </section>
         </main>
         <footer>
