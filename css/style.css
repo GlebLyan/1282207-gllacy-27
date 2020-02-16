@@ -1,3 +1,7 @@
 body{
     background-color: #849d8f;
 }
+.visualy-hidden{
+   /* visibility: hidden;*/
+    opacity: 0;
+}
