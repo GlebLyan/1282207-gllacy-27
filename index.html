@@ -17,23 +17,22 @@
                     <li><a href="about-us.html">О компании</a></li>
                 </ul>
                 <ul>
-                    <li><a href="search.html"> Поиск</a></li>
-                    <li>
-                        <label for="search">Что ищем</label> 
-                        <input id="search" type="text" name="search" placeholder="Что ищем?">
+                    <li><a href="search.html"> Поиск</a>
+                        <form action="https://echo.htmlacademy.ru" method="post">
+                            <label for="search">Что ищем</label> 
+                            <input id="search" type="text" name="search" placeholder="Что ищем?">
+                        </form>
                     </li>
                     <li><a href="enter.html">Вход</a>
-                    <ul>
-                        <li><label for="user-login">Логин</label> 
-                            <input id="user-login" type="email" name="login" placeholder="email@example.com">
-                        </li>
-                        <li><label for="user-pass">Пароль</label>
-                            <input id="user-pass" type="password" name="password" placeholder="••••••••">
-                        </li>
-                        <li><button type="submit">Вход</button></li>
-                        <li><a href="#">Забыли пароль?</a></li>    
-                        <li><a href="#">Новая регистрация</a></li>
-                    </ul>
+                        <form action="https://echo.htmlacademy.ru" method="post">
+                           <label for="user-login">Логин</label> 
+                           <input id="user-login" type="email" name="login" placeholder="email@example.com">
+                           <label for="user-pass">Пароль</label>
+                           <input id="user-pass" type="password" name="password" placeholder="••••••••">
+                           <button type="submit">Вход</button>
+                           <a href="#">Забыли пароль?</a>    
+                           <a href="#">Новая регистрация</a>
+                        </form>
                     </li>
                     <li><a href="#">Корзина</a></li>
                 </ul>
@@ -47,23 +46,25 @@
                             <img src="#" width="1045" height="881" alt="Крем-брюле и пломбир с малиновым джемом">
                             <h2>Крем-брюле и пломбир<br>
                                 с малиновым джемом</h2>
-                            <a href="#">Давайте оба</a>
+                            <a href="#">Давайте оба!</a>
                         </div>
                         <div>
                             <img src="#" width="1045" height="881" alt="Шоколадный пломбир и лимонный сорбет">
                             <h2>Шоколадный пломбир<br>
                                 и лимонный сорбет </h2>
-                            <a href="#">Давайте оба</a>
+                            <a href="#">Давайте оба!</a>
                         </div>
                         <div>
                             <img src="#" width="1045" height="881" alt="Пломбир с помадкой и клубничный щербет">
                             <h2>Пломбир с помадкой<br>
                                 и клубничный щербет</h2>
-                            <a href="#">Давайте оба</a>
+                            <a href="#">Давайте оба!</a>
                         </div>
-                        <button type="button"><span class="visualy-hidden">первый попап</span></button>
-                        <button type="button"><span class="visualy-hidden">второй попап</span></button>
-                        <button type="button"><span class="visualy-hidden">третий попап</span></button>
+                        <ul>
+                            <li><button type="button"><span class="visualy-hidden">первый слайд</span></button></li>
+                            <li><button type="button"><span class="visualy-hidden">второй слайд</span></button></li>
+                            <li><button type="button"><span class="visualy-hidden">третий слайд</span></button></li>
+                        </ul>
                    </section>
                    <section>
                        <h2>Малинка даром!</h2>
@@ -133,8 +134,9 @@
                          <p>
                             <input type="email" name="login" placeholder="email@example.com">
                           </p>
-                          <form action="https://echo.htmlacademy.ru" method="post"></form>
-                    <button type="button">Отправить</button>
+                          <form action="https://echo.htmlacademy.ru" method="post">
+                                <button type="button">Отправить</button>
+                          </form>
                 </section>
                 <section>
                         <h2 class="visualy-hidden">Адрес</h2>
@@ -145,23 +147,6 @@
                             <li>8 812 450-25-25<br>(с 10 до 20 ежедневно)</li>
                             <li><a href="feedback.html">Форма обратной связи</a> </li>
                         </ul>
-                </section>
-                <section>
-                    <h2>Мы обязательно ответим</h2>
-                    <form action="https://echo.htmlacademy.ru" method="post"></form>
-                    <p>
-                        <label for="user-name">Логин</label> 
-                        <input id="user-name" type="text" name="user-name" placeholder="Имя Фамилия">
-                    </p>
-                    <p>
-                        <label for="user-mail">Пароль</label>
-                        <input id="user-mail" type="email" name="email" placeholder="email@example.com">
-                    </p>
-                    <p>
-                        <label for="coments">Коментарий</label>
-                        <input id="coments" type="text" name="coments" placeholder="В свободной форме">
-                    </p>
-                    <button type="submit">Отправить</button>
                 </section>
         </main>
         <footer>
@@ -180,5 +165,23 @@
                 <img src="img/logo-htmlacademy-small.svg" width="108" height="39" alt="логотип htmlacademy">
                 <p>Сделано и <a href="https://htmlacademy.ru/">HTML Academy</a> &copy; 2019</p>
         </footer>
+        <div>
+            <h2>Мы обязательно ответим</h2>
+            <form action="https://echo.htmlacademy.ru" method="post">
+            <p>
+                <label for="user-name">Имя Фамилия</label> 
+                <input id="user-name" type="text" name="user-name" placeholder="Имя Фамилия">
+            </p>
+            <p>
+                <label for="user-mail">Электронная почта</label>
+                <input id="user-mail" type="email" name="email" placeholder="email@example.com">
+            </p>
+            <p>
+                <label for="coments">Коментарий</label>
+                <input id="coments" type="text" name="coments" placeholder="В свободной форме">
+            </p>
+            <button type="submit">Отправить</button>
+            </form>
+        </div>
     </body>
 </html>
