@@ -1,4 +1,9 @@
 body{
+    margin: 0;
+    padding: 0;
+
+    font-family: Roboto, serif;
+    
     background-color: #849d8f;
 }
 .visualy-hidden{
