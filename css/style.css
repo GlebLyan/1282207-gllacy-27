@@ -2,7 +2,13 @@ body{
     margin: 0;
     padding: 0;
 
-    font-family: Roboto, serif;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
     
     background-color: #849d8f;
 }
@@ -15,4 +21,127 @@ body{
     overflow: hidden;
     border: 0;
     clip: rect(0 0 0 0);
+}
+a {
+   /*text-decoration: none;  */
+}
+.button{
+    display: inherit;
+
+    border-radius: 32px;
+    background-image: linear-gradient(to top, #e74a35, #f26843);
+    box-shadow: 0px 2px 2px 0 var(--deep-red-64);
+    
+
+    text-align: center;
+    vertical-align: bottom;
+    text-shadow: 0px 2px 5px rgba(160, 32, 11, 0.76);
+    text-decoration: none;
+    color: #fefefe;
+}
+.main-navigation{
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+}
+.site-navigation,
+.user-navigation{
+    list-style: none;
+}
+.site-navigation a,
+.user-navigation a{
+    color: #ffffff;
+}
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus{
+    color: #ffbc9e;
+}
+.slide{
+    font-size: 60px;
+    line-height: 1;
+    text-align: center;
+    color: #ffffff;
+}
+.give-both{
+    width: 280px;
+    height: 64px;
+    font-size: 32px;
+}
+.index-columns{
+    
+}
+.index-columns h2{
+    font-size: 35px;
+    line-height: 41px;
+    color: #000000;
+}
+.razz{
+    color: #000000;
+    font-size: 18px;
+    line-height: 22px;
+
+    background-image: url("img/razz.jpg");
+    background-position: 0 0;
+}
+.chocolate{
+    color: #000000;
+    font-size: 18px;
+    line-height: 22px;
+
+    background-image: url("img/choko-palki.jpg");
+    background-position: 0 0;
+}
+
+.razz a{
+    width: 165px;
+    height: 46px;
+    opacity: 0.99;
+    font-size: 18px;
+}
+.chocolates{
+    width: 189px;
+    height: 45px;
+    opacity: 0.99;
+    font-size: 18px;
+}
+.hit{
+    display: inherit;
+
+    list-style: none;
+}
+.hit a{
+    text-decoration: none;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.hit-img{
+    border-radius: 200px;
+}
+.hit-a{
+    text-decoration: none;
+    border-bottom:1px solid #ffffff;
+}
+.about-us{
+    background-image: url("img/wafer.jpg");
+
+}
+.about-us h3{
+    width: 1013px;
+    height: 54px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #323232;
 }

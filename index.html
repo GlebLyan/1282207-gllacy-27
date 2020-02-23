@@ -4,16 +4,18 @@
     <head>
         <meta charset="utf-8">
          <title>Магазин "Gllacy Shop"</title>
-         <link rel="stylesheet" href="css/style.css">
+         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+         <link href="css/style.css" rel="stylesheet">
+         <link href="css/normolize.css" rel="stylesheet">
     </head>
     <body>
         <header>
             <nav>
                 <form action="https://echo.htmlacademy.ru" method="post"></form>
                 <a href="index.html"><img src="img/gllacy.svg" width="154" height="64" alt="Логотип «Gllacy»"></a>
-                <ul>
+                <ul class="site-navigation">
                     <li><a href="catalog.html">Каталог</a>
-                        <ul>
+                        <ul class="site-navigation">
                             <li><a href="">Новинки</a></li>
                             <li><a href="">Сливочное</a></li>
                             <li><a href="">Щербеты</a></li>
@@ -24,7 +26,7 @@
                     <li><a href="delivery.html">Доставка и оплата</a></li>
                     <li><a href="about-us.html">О компании</a></li>
                 </ul>
-                <ul>
+                <ul class="user-navigation">
                     <li><a href="search.html"> Поиск</a>
                         <form action="https://echo.htmlacademy.ru" method="post">
                             <label for="search" class="visualy-hidden">Что ищем</label> 
@@ -50,71 +52,73 @@
         </header>
         <main>
             <h1><span class="visualy-hidden">Магазин Глэйси - это онлайн- и офлайн-магазин по прадаже мороженного собственного производства на развес</span></h1>
-                   <section>
+                    <section>
                         <div>
                             <img src="#" width="1045" height="881" alt="Крем-брюле и пломбир с малиновым джемом">
-                            <h2>Крем-брюле и пломбир<br>
+                            <h2 class="slide">Крем-брюле и пломбир<br>
                                 с малиновым джемом</h2>
-                            <a href="#">Давайте оба!</a>
+                            <a href="#" class="button give-both">Давайте оба!</a>
                         </div>
                         <div>
                             <img src="#" width="1045" height="881" alt="Шоколадный пломбир и лимонный сорбет">
-                            <h2>Шоколадный пломбир<br>
+                            <h2 class="slide">Шоколадный пломбир<br>
                                 и лимонный сорбет </h2>
-                            <a href="#">Давайте оба!</a>
+                            <a href="#" class="button give-both">Давайте оба!</a>
                         </div>
                         <div>
                             <img src="#" width="1045" height="881" alt="Пломбир с помадкой и клубничный щербет">
-                            <h2>Пломбир с помадкой<br>
+                            <h2 class="slide">Пломбир с помадкой<br>
                                 и клубничный щербет</h2>
-                            <a href="#">Давайте оба!</a>
+                            <a href="#" class="button give-both">Давайте оба!</a>
                         </div>
                         <ul>
                             <li><button type="button"><span class="visualy-hidden">первый слайд</span></button></li>
                             <li><button type="button"><span class="visualy-hidden">второй слайд</span></button></li>
                             <li><button type="button"><span class="visualy-hidden">третий слайд</span></button></li>
                         </ul>
-                   </section>
-                   <section>
+                    </section>
+                    <div class="index-columns">
+                    <section class="razz">
                        <h2>Малинка даром!</h2>
-                       <p>При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.</p>
-                       <a href="catalog.html">Хочу варенье!</a>
-                   </section>
-                   <section>
+                       <p>При покупке 2 кг любого фруктового мороженого, добавим<br>в ваш заказ банку малинового варенья бесплатно.</p>
+                       <a href="catalog.html" class="button jam">Хочу варенье!</a>
+                    </section>
+                    <section class="chocolate">
                        <h2>Шоколадки даром!</h2>
-                       <p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
-                       <a href="catalog.html">Хочу шоколадки!</a>
-                   </section>
-                   <section>
+                       <p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку<br> вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
+                       <a href="catalog.html" class="button chocolates">Хочу шоколадки!</a>
+                    </section>
+                    <section>
+                    </div>
                        <h2 class="visualy-hidden">Хит</h2>
-                        <ul>
+                        <ul  class="hit">
                             <li>
-                                <a href="#"><img src="img/ice-orange.jpg" width="267" height="267" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой"></a>
+                                <a href="#"><img class="hit-img" src="img/ice-orange.jpg" width="267" height="267" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой"></a>
                                 <p>310 ₽<span>/кг</span></p>
-                                <h3><a href="">Сливочное с апельсиновым джемом и цитрусовой стружкой</a></h3>
+                                <h3><a href="" class="hit-a">Сливочное с апельсиновым<br>джемом и цитрусовой стружкой</a></h3>
                             </li>
                             <li>
-                                <a href="#"><img src="img/ice-coffe.jpg" width="267" height="267" alt="Сливочно-кофейное с кусочками шоколада"></a>
+                                <a href="#"><img class="hit-img" src="img/ice-coffe.jpg" width="267" height="267" alt="Сливочно-кофейное с кусочками шоколада"></a>
                                 <p>380 ₽<span>/кг</span></p>
-                                <h3><a href="">Сливочно-кофейное с кусочками шоколада</a></h3>
+                                <h3><a href="" class="hit-a">Сливочно-кофейное с кусочками<br>шоколада</a></h3>
                             </li>
                             <li>
-                                <a href="#"><img src="img/ice-rasbery.jpg" width="267" height="267" alt="Сливочно-клубничное с присыпкой из белого шоколада"></a>
+                                <a href="#"><img class="hit-img" src="img/ice-rasbery.jpg" width="267" height="267" alt="Сливочно-клубничное с присыпкой из белого шоколада"></a>
                                 <p>355 ₽<span>/кг</span></p>
-                                <h3><a href="#">Сливочно-клубничное с присыпкой из белого шоколада</a></h3>
+                                <h3><a href="#" class="hit-a">Сливочно-клубничное с<br>присыпкой из белого шоколада</a></h3>
                             </li>
                             <li>
-                                <a href="#"><img src="img/ice-brule.jpg" width="267" height="267" alt="Сливочное крем-брюле с карамельной подливкой"></a>
+                                <a href="#"><img class="hit-img" src="img/ice-brule.jpg" width="267" height="267" alt="Сливочное крем-брюле с карамельной подливкой"></a>
                                 <p>415 ₽<span>/кг</span></p>
-                                <h3><a href="#">Сливочное крем-брюле с карамельной подливкой</a></h3>
+                                <h3><a href="#" class="hit-a">Сливочное крем-брюле с<br>карамельной подливкой</a></h3>
                             </li>
                         </ul>
                    </section>
-                <section>
+                <section class="about-us">
                     <h2 class="visualy-hidden">О нашем мороженом</h2>
-                        <p>Магазин Глэйси - это онлайн- и 
+                        <h3>Магазин Глэйси - это онлайн- и 
                             офлайн-магазин по прадаже мороженного 
-                            собственного производства на развес</p>
+                            собственного производства на развес</h3>
                         <p>Все наше мороженое изготавливается на собственном 
                             производстве, с использованием современного оборудования
                              и проверенных временем технологий.</p>
