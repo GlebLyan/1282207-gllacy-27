@@ -12,7 +12,7 @@ body{
     
     background-color: #849d8f;
 }
-.visualy-hidden{
+.visually-hidden{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -21,9 +21,6 @@ body{
     overflow: hidden;
     border: 0;
     clip: rect(0 0 0 0);
-}
-a {
-   /*text-decoration: none;  */
 }
 .button{
     display: inherit;
@@ -251,12 +248,57 @@ a {
     background-image: linear-gradient(to top, #e74a35, #f26843);
 
 }
+.adress{
+
+}
+.adress ul{
+    list-style: none;
+}
+.adress-button{
+    display: inherit;
+    text-decoration: none ;
+
+    width: 252px;
+    height: 44px;
+    border-radius: 22px;
+    box-shadow: 0px 2px 2px 0 rgba(172, 16, 0, 0.64);
+    background-image: linear-gradient(to top, #e74a35, #f26843);
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fefefe;
+}
 .main-footer{
     height: 103px;
+    color: #ffffff;
+}
+.footer-social,
+.footer-information{
+    list-style: none;
+}
+.footer-social a,
+.footer-information a{
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom:1px solid #ffffff;
 }
 .footer-social{
-    list-style: none;
+
 }
-.footer-social ul{
-    list-style: none;
+.footer-information{
+
+}
+
+
+
+
+
+
+
+
+.catalog{
+    
 }

@@ -12,9 +12,9 @@
         <header>
             <nav>
                 <a href="index.html"><img src="img/gllacy.svg" alt="Логотип «Gllacy»"></a>
-                  <ul>
+                  <ul class="site-navigation">
                       <li><a href="#">Каталог</a>
-                        <ul>
+                        <ul class="site-navigation">
                           <li><a href="">Новинки</a></li>
                           <li><a href="">Сливочное</a></li>
                           <li><a href="">Щербеты</a></li>
@@ -25,18 +25,18 @@
                       <li><a href="delivery.html">Доставка и оплата</a></li>
                       <li><a href="about-us.html">О компании</a></li>
                   </ul>
-                  <ul>
+                  <ul class="user-navigation">
                       <li><a href="search.html"> Поиск</a>
                         <form action="https://echo.htmlacademy.ru" method="post">
-                          <label for="search" class="visualy-hidden">Что ищем</label> 
+                          <label for="search" class="visually-hidden">Что ищем</label> 
                           <input id="search" type="text" name="search" placeholder="Что ищем?">
                         </form>
                       </li>
                       <li><a href="enter.html">Вход</a>
                         <form action="https://echo.htmlacademy.ru" method="post">
-                          <label for="user-login" class="visualy-hidden">Логин</label> 
+                          <label for="user-login" class="visually-hidden">Логин</label> 
                           <input id="user-login" type="email" name="login" placeholder="email@example.com">
-                          <label for="user-pass" class="visualy-hidden">Пароль</label>
+                          <label for="user-pass" class="visually-hidden">Пароль</label>
                           <input id="user-pass" type="password" name="password" placeholder="••••••••">
                           <button type="submit">Вход</button>
                           <a href="#">Забыли пароль?</a>    
@@ -47,14 +47,14 @@
                         <div>
                           <ul>
                             <li>
-                              <button type="button"><span class="visualy-hidden">удалить</span></button>
+                              <button type="button"><span class="visually-hidden">удалить</span></button>
                               <img src="img/ice-orange.jpg" width="33" height="33" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой">
                               <p>Пломбир с апельсиновым джемом</p>
                               <p>1,5 кг х 200</p>
                               <p>300 руб.</p>
                             </li>
                             <li>
-                              <button type="button"><span class="visualy-hidden">удалить</span></button>
+                              <button type="button"><span class="visually-hidden">удалить</span></button>
                               <img src="img/ice-rasbery.jpg" width="33" height="33" alt="Сливочно-клубничное с присыпкой из белого шоколада">
                               <p>Клубничный пломбир с присыпкой<br>из белого шокалада</p>
                               <p>1,5 кг х 300</p>
@@ -154,20 +154,20 @@
           </section>
         </main>
         <footer>
-          <ul>
-              <li><a href="#">Твиттер</a></li>
-              <li><a href="#">Инстаграмм</a></li>
-              <li><a href="#">Фэйсбук</a></li>
-              <li><a href="#">Вконтакте</a></li>
+          <ul class="footer-social">
+            <li><a href="#"><span class="visually-hidden">Твиттер</span></a></li>
+            <li><a href="#"><span class="visually-hidden">Инстаграмм</span></a></li>
+            <li><a href="#"><span class="visually-hidden">Фэйсбук</span></a></li>
+            <li><a href="#"><span class="visually-hidden">Вконтакте</span></a></li>
           </ul>
-          <ul>
-              <li><a href="#">Для поставщиков</a></li>
-              <li><a href="#">Наши документы</a></li>
-              <li><a href="#">О производстве</a></li>
-              <li><a href="#">Экологические стандарты</a></li>
+          <ul class="footer-information">
+            <li><a href="#">Для поставщиков</a></li>
+            <li><a href="#">Наши документы</a></li>
+            <li><a href="#">О производстве</a></li>
+            <li><a href="#">Экологические стандарты</a></li>
           </ul>
               <img src="img/logo-htmlacademy-small.svg" width="108" height="39" alt="логотип htmlacademy">
               <p>Сделано и <a href="https://htmlacademy.ru/">HTML Academy</a> &copy; 2019</p>
-      </footer>
+        </footer>
     </body>
   </html>
