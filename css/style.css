@@ -75,7 +75,7 @@ a {
 .index-columns h2{
     font-size: 35px;
     line-height: 41px;
-    color: #000000;
+    color: #ffffff;
 }
 .razz{
     color: #ffffff;
@@ -84,14 +84,22 @@ a {
 
     background-image: url("../img/razz.jpg");
     background-position: 0 0;
+    width: 560px;
+    height: 229px;
+    object-fit: contain;
+    border-radius: 15px;
 }
 .chocolate{
-    color: #000000;
+    color: #ffffff;
     font-size: 18px;
     line-height: 22px;
 
-    background-image: url("img/choko-palki.jpg");
+    background-image: url("../img/choko-palki.jpg");
     background-position: 0 0;
+    width: 560px;
+    height: 229px;
+    object-fit: contain;
+    border-radius: 15px;
 }
 
 .razz a{
@@ -129,19 +137,126 @@ a {
     border-bottom:1px solid #ffffff;
 }
 .about-us{
-    background-image: url("img/wafer.jpg");
+    background-image: url("../img/wafer.jpg");
+    width: 1146px;
+    height: 306px;
+    object-fit: contain;
+    border-radius: 15px
 
 }
 .about-us h3{
     width: 1013px;
     height: 54px;
-    font-family: Roboto;
     font-size: 24px;
     font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 30px;
     letter-spacing: normal;
     text-align: left;
     color: #323232;
+}
+.news{
+    background-color: #ffffff;
+    background-image: url(../img/rusbery.jpg);
+    width: 560px;
+    height: 220px;
+    object-fit: contain;
+    border-radius: 15px;
+
+}
+.news h2{
+    width: 161px;
+    height: 14px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #323232;
+}
+.news a{
+    width: 279px;
+    height: 84px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #323232;
+}
+.subscription{
+    display: inherit;
+
+    background-color: #f8f7f4;
+    width: 549px;
+    height: 211px;
+    border-radius: 10px;
+
+    background-image: url(../img/massage.svg);
+    width: 560px;
+    height: 220px;
+    object-fit: contain;
+
+    
+}
+.subscription-text{
+    width: 506px;
+    height: 61px;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 22px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5a5a5a;
+}
+.subscription-button{
+    width: 91px;
+    height: 17px;
+    font-size: 18px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: normal;
+    color: #fefefe;
+
+    width: 129px;
+    height: 44px;
+    background-image: linear-gradient(to top, #e74a35, #f26843);
+    border-radius: 22px;
+}
+.modal{
+    color: #000000;
+
+    width: 478px;
+    height: 443px;
+    border-radius: 10px;
+    background-color: #f8f7f4;
+}
+.modal-button{
+    color: #fefefe;
+    width: 91px;
+    height: 17px;
+    font-size: 18px;
+    line-height: 24px;
+
+
+    width: 139px;
+    height: 44px;
+    border-radius: 22px;
+    box-shadow: 0px 2px 2px 0 rgba(172, 16, 0, 0.64);
+    background-image: linear-gradient(to top, #e74a35, #f26843);
+
+}
+.main-footer{
+    height: 103px;
+}
+.footer-social{
+    list-style: none;
+}
+.footer-social ul{
+    list-style: none;
 }
