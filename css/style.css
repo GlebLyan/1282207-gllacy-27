@@ -4,10 +4,9 @@ body{
 
     font-family: 'Roboto', Arial, sans-serif;
     font-style: normal;
-    font-weight: 700;
     font-display: swap;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 22px;
     color: #ffffff;
     
     background-color: #849d8f;
@@ -23,15 +22,17 @@ body{
     clip: rect(0 0 0 0);
 }
 .button{
-    display: inherit;
+    display: inline-block;
+    
 
     border-radius: 32px;
     background-image: linear-gradient(to top, #e74a35, #f26843);
-    box-shadow: 0px 2px 2px 0 var(--deep-red-64);
+    box-shadow: 0px 2px 2px 0 rgba(172, 16, 0, 0.64);
+    border: none;
     
 
     text-align: center;
-    vertical-align: bottom;
+    vertical-align: middle;
     text-shadow: 0px 2px 5px rgba(160, 32, 11, 0.76);
     text-decoration: none;
     color: #fefefe;
@@ -44,10 +45,15 @@ body{
 .site-navigation,
 .user-navigation{
     list-style: none;
+
+    
 }
 .site-navigation a,
 .user-navigation a{
     color: #ffffff;
+
+    text-decoration: none;
+    border-bottom:1px solid rgba(255, 255, 255, 0.2);
 }
 .site-navigation a:hover,
 .site-navigation a:focus,
@@ -56,15 +62,18 @@ body{
     color: #ffbc9e;
 }
 .slide{
+
+}
+.slide h2{
     font-size: 60px;
     line-height: 1;
     text-align: center;
-    color: #ffffff;
 }
-.give-both{
-    width: 280px;
-    height: 64px;
+.button-slide{
     font-size: 32px;
+
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 .index-columns{
     
@@ -72,10 +81,8 @@ body{
 .index-columns h2{
     font-size: 35px;
     line-height: 41px;
-    color: #ffffff;
 }
 .razz{
-    color: #ffffff;
     font-size: 18px;
     line-height: 22px;
 
@@ -83,11 +90,12 @@ body{
     background-position: 0 0;
     width: 560px;
     height: 229px;
-    object-fit: contain;
     border-radius: 15px;
 }
+.razz a{
+    font-size: 18px;
+}
 .chocolate{
-    color: #ffffff;
     font-size: 18px;
     line-height: 22px;
 
@@ -95,51 +103,38 @@ body{
     background-position: 0 0;
     width: 560px;
     height: 229px;
-    object-fit: contain;
     border-radius: 15px;
 }
-
-.razz a{
-    width: 165px;
-    height: 46px;
-    opacity: 0.99;
+.chocolate a{
     font-size: 18px;
 }
-.chocolates{
-    width: 189px;
-    height: 45px;
-    opacity: 0.99;
-    font-size: 18px;
-}
-.hit{
-    display: inherit;
 
+.catalog{
     list-style: none;
 }
-.hit a{
+.catalog a{
     text-decoration: none;
 
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.38;
-    letter-spacing: normal;
+    line-height: 22px;
     text-align: center;
     color: #ffffff;
 }
-.hit-img{
+.catalog-img{
     border-radius: 200px;
 }
-.hit-a{
+.catalog-a{
     text-decoration: none;
-    border-bottom:1px solid #ffffff;
+    border-bottom:1px solid rgba(255, 255, 255, 0.2);
 }
 .about-us{
     background-image: url("../img/wafer.jpg");
     width: 1146px;
     height: 306px;
-    object-fit: contain;
-    border-radius: 15px
+    border-radius: 15px;
 
+    color: #323232;
 }
 .about-us h3{
     width: 1013px;
@@ -147,43 +142,33 @@ body{
     font-size: 24px;
     font-weight: 500;
     line-height: 30px;
-    letter-spacing: normal;
-    text-align: left;
-    color: #323232;
 }
 .news{
     background-color: #ffffff;
     background-image: url(../img/rusbery.jpg);
     width: 560px;
     height: 220px;
-    object-fit: contain;
     border-radius: 15px;
 
 }
 .news h2{
     width: 161px;
     height: 14px;
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
     line-height: 22px;
-    letter-spacing: normal;
-    text-align: left;
     color: #323232;
 }
 .news a{
     width: 279px;
     height: 84px;
-    font-family: Roboto;
     font-size: 24px;
     font-weight: bold;
     line-height: 30px;
-    letter-spacing: normal;
-    text-align: left;
     color: #323232;
 }
 .subscription{
-    display: inherit;
+    display: inline-block;
 
     background-color: #f8f7f4;
     width: 549px;
@@ -194,8 +179,6 @@ body{
     width: 560px;
     height: 220px;
     object-fit: contain;
-
-    
 }
 .subscription-text{
     width: 506px;
@@ -205,8 +188,6 @@ body{
     font-stretch: normal;
     font-style: normal;
     line-height: 22px;
-    letter-spacing: normal;
-    text-align: left;
     color: #5a5a5a;
 }
 .subscription-button{
@@ -217,13 +198,14 @@ body{
     font-stretch: normal;
     font-style: normal;
     line-height: 24px;
-    letter-spacing: normal;
     color: #fefefe;
 
     width: 129px;
     height: 44px;
     background-image: linear-gradient(to top, #e74a35, #f26843);
     border-radius: 22px;
+    box-shadow: 0px 2px 2px 0 rgba(172, 16, 0, 0.64);
+    border: none;
 }
 .modal{
     color: #000000;
@@ -246,6 +228,7 @@ body{
     border-radius: 22px;
     box-shadow: 0px 2px 2px 0 rgba(172, 16, 0, 0.64);
     background-image: linear-gradient(to top, #e74a35, #f26843);
+    border: none;
 
 }
 .adress{
@@ -255,7 +238,7 @@ body{
     list-style: none;
 }
 .adress-button{
-    display: inherit;
+    display: inline-block;
     text-decoration: none ;
 
     width: 252px;
@@ -263,6 +246,7 @@ body{
     border-radius: 22px;
     box-shadow: 0px 2px 2px 0 rgba(172, 16, 0, 0.64);
     background-image: linear-gradient(to top, #e74a35, #f26843);
+    border: none;
 
     font-size: 18px;
     font-weight: 700;
@@ -283,7 +267,7 @@ body{
 .footer-information a{
     color: #ffffff;
     text-decoration: none;
-    border-bottom:1px solid #ffffff;
+    border-bottom:1px solid rgba(255, 255, 255, 0.2);
 }
 .footer-social{
 
@@ -291,12 +275,6 @@ body{
 .footer-information{
 
 }
-
-
-
-
-
-
 
 
 .catalog{
