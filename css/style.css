@@ -11,6 +11,12 @@ body{
     
     background-color: #849d8f;
 }
+.main-header{
+    padding-bottom: 284px;
+
+    min-height: 123px;
+
+}
 .visually-hidden{
     position: absolute;
     width: 1px;
@@ -41,10 +47,22 @@ body{
     font-size: 16px;
     line-height: 18px;
     color: #ffffff;
+
+    display: flex;
+    flex-direction: row;
+
+    min-height: 123px;
+    background-color: transparent;
 }
 .site-navigation,
 .user-navigation{
     list-style: none;
+
+    min-height: 64px;
+    border: 1px;
+
+    display: flex;
+    flex-direction: row;
 
     
 }
@@ -60,6 +78,10 @@ body{
 .user-navigation a:hover,
 .user-navigation a:focus{
     color: #ffbc9e;
+}
+.main-header-logo{
+    height: 64px;
+    width: 154px;
 }
 .slide{
 
