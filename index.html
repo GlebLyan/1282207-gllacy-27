@@ -10,12 +10,14 @@
     </head>
     <body>
         <header class="main-header">
-            <nav>
+            <nav class="main-header-outlook">
   <!--              <form action="https://echo.htmlacademy.ru" method="post"></form> -->
                 <a class="main-header-logo" href="index.html"><img src="img/gllacy.svg" width="154" height="64" alt="Логотип «Gllacy»"></a>
+                <div class="only-navigation">
                 <ul class="site-navigation">
                     <li><a href="catalog.html">Каталог</a>
-                        <ul class="site-navigation">
+                        <!--убрать то что скрывает-->
+                        <ul class="site-navigation visually-hidden">
                             <li><a href="">Новинки</a></li>
                             <li><a href="">Сливочное</a></li>
                             <li><a href="">Щербеты</a></li>
@@ -27,14 +29,16 @@
                     <li><a href="about-us.html">О компании</a></li>
                 </ul>
                 <ul class="user-navigation">
+                    <!--убрать то что скрывает-->
                     <li><a href="search.html"> Поиск</a>
-                        <form action="https://echo.htmlacademy.ru" method="post">
+                        <form class="visually-hidden" action="https://echo.htmlacademy.ru" method="post">
                             <label for="search" class="visually-hidden">Что ищем</label> 
                             <input id="search" type="text" name="search" placeholder="Что ищем?">
                         </form>
                     </li>
                     <li><a href="enter.html">Вход</a>
-                        <form action="https://echo.htmlacademy.ru" method="post">
+                        <!--убрать то что скрывает-->
+                        <form class="visually-hidden" action="https://echo.htmlacademy.ru" method="post">
                            <label for="user-login" class="visually-hidden">Логин</label> 
                            <input id="user-login" type="email" name="login" placeholder="email@example.com">
                            <label for="user-pass" class="visually-hidden">Пароль</label>
@@ -46,9 +50,12 @@
                     </li>
                     <li><a href="#">Корзина</a></li>
                 </ul>
+                </div>
             </nav>
+            <div class="work-time">
                 <p>С 10 до 20, ежеденвно</p>
                 <p>8 812 450-25-25</p>
+            </div>
         </header>
         <main>
             <h1><span class="visually-hidden">Магазин Глэйси - это онлайн- и офлайн-магазин по прадаже мороженного собственного производства на развес</span></h1>
