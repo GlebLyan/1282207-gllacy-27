@@ -38,8 +38,6 @@ body{
     color: #fefefe;
 }
 .main-header{
-    padding-bottom: 284px;
-
     min-height: 123px;
 
     width: 1200px;
@@ -77,12 +75,12 @@ body{
     justify-content: space-between;
 }
 .site-navigation{
-    background-color: rgba(255, 98, 0);
+    
 
     display: flex;
 }
 .user-navigation{
-    background-color: rgba(15, 55, 0);
+   
 
     display: flex;
 }
@@ -111,12 +109,25 @@ body{
     height: 64px;
     width: 154px;
 }
+.header-contact{
+    width: 166px;
+    margin-left: auto;
+}
 .work-time{
-    justify-content: left;
-
-    background-color: rgba(172, 16, 0, 0.64);
+    height: 13px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+}
+.number{
+    height: 17px;
+    font-size: 22px;
+    line-height: 24px;
+    text-align: right;
 }
 .slide{
+    width: 1200px;
+    margin: 0 auto;
 
 }
 .slide h2{
@@ -129,8 +140,23 @@ body{
 
     padding-top: 16px;
     padding-bottom: 16px;
+
+
+}
+.slide-switch{
+    width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+
+    list-style: none;
 }
 .index-columns{
+    width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
     
 }
 .index-columns h2{
@@ -163,7 +189,13 @@ body{
 .chocolate a{
     font-size: 18px;
 }
+.catalog-main{
+    width: 1200px;
+    margin: 0 auto;
 
+    display: flex;
+    justify-content: space-between;
+}
 .catalog{
     list-style: none;
 }
@@ -190,6 +222,9 @@ body{
     border-radius: 15px;
 
     color: #323232;
+
+    width: 1200px;
+    margin: 0 auto;
 }
 .about-us h3{
     width: 1013px;
@@ -287,6 +322,9 @@ body{
 
 }
 .adress{
+    width: 1200px;
+    margin: 0 auto;
+
 
 }
 .adress ul{
@@ -313,6 +351,12 @@ body{
 .main-footer{
     height: 103px;
     color: #ffffff;
+
+    width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
 }
 .footer-social,
 .footer-information{
@@ -330,8 +374,38 @@ body{
 .footer-information{
 
 }
+.catalog-heading{
+    width: 1200px;
+    margin: 0 auto;
 
+    display: flex;
+    align-items: center;
+}
+.switch{
+    width: 1200px;
+    margin: 0 auto;
 
-.catalog{
-    
+    display: flex;
+
+    list-style: none;
+}
+.catalog-catalog{
+    width: 1200px;
+    margin: 0 auto;
+}
+.catalog-ice-cream{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+
+    list-style: none;
+}
+.navigation a{
+    color: #ffffff;
+
+    text-decoration: none;
 }
